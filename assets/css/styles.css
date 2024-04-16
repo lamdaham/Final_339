@@ -325,8 +325,15 @@ svg {
 }
 
 /*=============== ABOUT ===============*/
+.about__section__left {
+  padding: 20px;
+  margin-right: 50%;
+}
 
-
+.about__section__right {
+  padding: 20px;
+  margin-left: 50%;
+}
 /*=============== SKILLS ===============*/
 
 
