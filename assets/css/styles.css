@@ -363,6 +363,40 @@ svg {
 
 
 /* For medium devices */
+@media screen and (min-width: 768px){
+  .nav__menu{
+    width: 50%;
+  }
+
+  .home__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
 
 
 /* For large devices */
+@media screen and (min-width: 1023px) {
+  .section {
+    padding-block: 7rem 2rem;
+  }
+  .section__subtitle{
+    font-size: var(--normal-font-size);
+  }
+  .nav{
+    height: calc(.5rem + var(--header-height));
+  }
+
+  .nav__close, .nav__toggle{
+    display: none;
+  }
+
+  .nav__list{
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .nav__menu{
+    width: initial;
+  }
+}
