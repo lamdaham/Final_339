@@ -339,7 +339,7 @@ svg {
 
 }
 /*=============== ABOUT ===============*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .about__section__left {
     padding: 20px;
     margin-right: 25%;
@@ -361,7 +361,72 @@ svg {
 
 
 /*=============== CONTACT ===============*/
+input, textarea {
+  background-color: hsl(240, 3%, 12%);
+  border-radius: 10px;
+  text-wrap: wrap;
+  border: solid 2px white;
+}
 
+#form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  padding: 10%;
+  gap: 20px;
+  
+  height: 600px; 
+}
+
+#name {
+  grid-area: 0 / 1 / 0 / 1;
+  color:#899ca8;
+}
+
+#email {
+  grid-area: 1 / 2 / 0 / 1;
+  color:#899ca8;
+}
+
+#phone {
+  grid-area: 2 / 3 / 0 / 1;
+  color:#899ca8;
+}
+
+#message {
+  grid-area: 3 / 4 / 0 / 1;
+  color:#899ca8;
+}
+
+#submit {
+  color:#899ca8;
+}
+
+@media screen and (min-width: 768px){
+  /*contact me item formatting*/
+  #form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }  
+
+  #name {
+    grid-area: 0 / 1 / 0 / 1;
+  }
+  
+  #email {
+    grid-area: 1 / 2 / 0 / 1;
+  }
+  
+  #phone {
+    grid-area: 2 / 3 / 0 / 1;
+  }
+  
+  #message {
+    grid-area: 1 / 2 / 4 / 4;
+  }
+}
 
 /*=============== FOOTER ===============*/
 
@@ -389,6 +454,8 @@ svg {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+
+  
 }
 
 
