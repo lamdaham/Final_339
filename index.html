@@ -26,16 +26,16 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#" class="nav__link">Home</a>
+                     <a href="#home" class="nav__link">Home</a>
                   </li>
                   <li class="nav__item">
-                     <a href="#" class="nav__link">About</a>
+                     <a href="#education" class="nav__link">About</a>
                   </li>
                   <li class="nav__item">
-                     <a href="#" class="nav__link">Interest</a>
+                     <a href="#leadership" class="nav__link">Interest</a>
                   </li>
                   <li class="nav__item">
-                     <a href="#" class="nav__link">Projects</a>
+                     <a href="#projects" class="nav__link">Projects</a>
                   </li>
                </ul>
                <div class="nav__close" id="nav-close">
@@ -119,29 +119,75 @@
          </section>
 
 
-         <section class="about section" id="about">
-            
-         </section>
+         <main>
+            <!-- Education Section -->
+            <section class="education section" id="education">
+                <h2 class="heading">Education</h2>
+                <div class="subbox">
+                    <h3>University of Michigan-Ann Arbor</h3>
+                    <p>Junior at School of Engineering</p>
+                    <p>Intended Major: Computer Science</p>
+                    <p>Relevant Coursework: EECS 280, EECS 281, EECS 370, EECS 376</p>
+                    <span>September 2022 - June 2025</span>
+                </div>
+            </section>
+        
+            <!-- Leadership and Activities Section -->
+            <section class="leadership section" id="leadership">
+                <h2 class="heading">Leadership and Activities</h2>
+                <div class="subbox about__section__right" data-tilt>
+                    <h3>Stuyvesant Robotics Team</h3>
+                    <p>Member of the engineering department, qualified for Nationals.</p>
+                    <span>Sep 2018 - Aug 2022</span>
+                </div>
+                <div class="subbox about__section__left" data-tilt>
+                    <h3>StuySpec Web Department</h3>
+                    <p>Developed website for Stuyvesant newspaper using Flask and JavaScript.</p>
+                    <span>March 2021 - Aug 2022</span>
+                </div>
+                <div class="subbox about__section__right" data-tilt>
+                  <h3>White Coffee IT</h3>
+                  <p>IT Assistant, automated processes, and assisted with data entry and media tasks.</p>
+                  <span>Jun 2022 - Aug 2022</span>
+              </div>
+              <div class="subbox about__section__left" data-tilt>
+                  <h3>Elyceum Computer Science Summer Internship</h3>
+                  <p>Intern, developed a WordPress website using HTML, CSS, and JavaScript.</p>
+                  <span>Jun 2021 - Aug 2021</span>
+              </div>
+            </section>
 
-
-         <section class="skills section">
-            
-         </section>
-
-
-         <section class="services section" id="services">
-            
-         </section>
-
-
-         <section class="projects section" id="projects">
-            
-         </section>
-
-
-         <section class="contact section" id="contact">
-            
-         </section>
+            <!-- Projects Section -->
+            <section class="projects section" id="projects">
+                <h2 class="heading">Projects</h2>
+                <div class="subbox about__section__right" data-tilt>
+                    <h3>Sentiment Analysis Stock Trader</h3>
+                    <p>Developed a model using SKLearn and Kaggle data, integrated with NewsAPI and Alpaca Trading API for automated trading based on news sentiment.</p>
+                </div>
+                <div class="subbox about__section__left" data-tilt>
+                    <h3>Project Smithy</h3>
+                    <p>Website for student projects with a peer review system. Utilized Flask, HTML/CSS/JS, and SQLite.</p>
+                </div>
+                <div class="subbox about__section__right" data-tilt>
+                    <h3>Collision Simulator</h3>
+                    <p>Java application simulating physical phenomena like collisions and gravity.</p>
+                </div>
+            </section>
+        
+        
+            <!-- Contact Section -->
+            <section class="contact section" id="contact">
+                <h2 class="heading">Contact Me</h2>
+                <form action="#" method="post" id="form">
+                    <input type="text" id="name" name="name" placeholder="Name:" required>
+                    <input type="email" id="email" name="email" placeholder="Email:" required>
+                    <input type="phone" id="phone" name="phone" placeholder="Phone Number:" required>
+                    <textarea id="message" name="message" placeholder="Message:" required></textarea>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        
       </main>
 
 
@@ -154,6 +200,7 @@
 
 
       <script src="assets/js/scrollreveal.min.js"></script>
+      <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
 
 
       

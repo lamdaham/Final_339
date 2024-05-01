@@ -63,7 +63,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -113,7 +113,7 @@ svg {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -153,7 +153,7 @@ svg {
   overflow: hidden; /* For animation ScrollReveal */
 }
 
-/*=============== HEADER & NAV ===============*/
+
 .header {
   position: fixed;
   width: 100%;
@@ -338,7 +338,7 @@ svg {
   text-align: center;
 
 }
-/*=============== ABOUT ===============*/
+
 @media screen and (min-width: 768px) {
   .about__section__left {
     padding: 20px;
@@ -351,16 +351,7 @@ svg {
   }
 }
 
-/*=============== SKILLS ===============*/
 
-
-/*=============== SERVICES ===============*/
-
-
-/*=============== PROJECTS ===============*/
-
-
-/*=============== CONTACT ===============*/
 input, textarea {
   background-color: hsl(240, 3%, 12%);
   border-radius: 10px;

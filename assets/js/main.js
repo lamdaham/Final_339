@@ -14,22 +14,7 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
-/*=============== REMOVE MENU MOBILE ===============*/
 
-
-/*=============== ADD BLUR TO HEADER ===============*/
-
-
-/*=============== EMAIL JS ===============*/
-
-
-/*=============== SHOW SCROLL UP ===============*/ 
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
